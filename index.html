@@ -594,7 +594,7 @@
         function enviarDatos() {
             const form = document.getElementById('contactForm');
             const formData = new FormData(form);
-            const endpointURL = 'http://api.satoshipayments.company:2053/v1/contact';
+            const endpointURL = 'https://api.satoshipayments.company:2053/v1/contact';
 
             fetch(endpointURL, {
                 method: 'POST',
